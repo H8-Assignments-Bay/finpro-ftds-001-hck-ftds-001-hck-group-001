@@ -2,7 +2,7 @@
 
 
 # CAROLLINE
-**Your lovely consultant**
+**Your lovely beauty consultant**
     
     
 Carolline is the Chatbot and Recommendation System for the Beauty Product!  
