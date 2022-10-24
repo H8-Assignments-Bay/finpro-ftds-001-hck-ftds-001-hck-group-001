@@ -5,18 +5,31 @@
     },
     {"tag": "nama",
      "patterns": ["namaku", "nama saya adalah", "nama:", "my name is", "my name", "nama gue"],
-     "responses": ["halo ka, carolline bisa merekomendasikan kakak produk - produk kecantikkan seperti makeup, shampoo, sabun, parfume, ddan skincare. kira - kira kakak butuh rekomendasi apa ya??", "Halo juga, aku Carroline. ada yang bisa di bantu ka??s"]
+     "responses": ["halo ka, carolline bisa merekomendasikan kakak produk - produk kecantikkan seperti makeup, shampoo, sabun, parfume, ddan skincare. kira - kira kakak butuh rekomendasi apa ya??", "Halo juga, aku Carroline. ada yang bisa di bantu ka??"]
     },
-    {"tag" : "Rekomendasi",
-     "patterns" : ["ka, saya butuh rekomendasi parfume", "ka, makeup yang bagus apa ya", "ka, skincare yang bisa ngilangi jerawat", "kasih rekomendasi produk dong carolline", "aku mau pesta, makeup yang bagus apa yaa"],
-
-     "responses" : ["Carolline merekomendasikan produk ini, semoga cocok ya kak :D", "Sepertinya produk ini yang dicari kakak ya?", "Carolline menyarankan produk ini untuk digunakan.",
-     "Rekomendasi Carolline untuk kebutuhan kakak adalah ini.", "Semoga produk ini sesuai dengan kebutuhan kakak.", "Ini rekomendasi dari Carolline oo>>v<<ooo", 
-     "Carolline berpikir ini akan sesuai dengan apa yang dibutuhkan.", "Produk dari Phora-Phora ini sepertinya yang dicari kakak.", "Setelah Carolline cari-cari sepertinya ini ya yang dibutuhkan.",
-     "Carolline merekomendasikan produk ini untuk digunakan.", "Terima kasih telah menunggu, Carollline menyarankan produk ini untuk digunakan."]
+    {"tag" : "Moisturizers",
+     "patterns" : ["kakak kulit aku kering, kira - kira Moisturizersyang cocok apa yaa", "ka, Moisturizers yang bagus apa yaa", "ka, Moisturizers yang ga ada bahan", "ka mau Moisturizers yang mengandung bahan", "kak, mau Moisturizers yang lagi viral dong"],
+     "responses" : ["Carolline bisa merekomendasikan Moisturizers ini untuk kakak.", "sepertinya ini Moisturizers yang kakak sedang cari yaa", "Carolline merasa kulit kakak akan sehat ketika memakai Moisturizers ini"]
     },
+    {"tag" : "Face Serum",
+    "patterns" : ["ada gak ka face serum yang cocok buat aku", "ka, face serum yang murah dan bagus ada gak?", "ka kulit aku sensitif, ada face serum yang cocok buat kulit sensitif gak?", "ka mau rekomendasi face serum dong", "kak, mau nanya ada face serum yang sedang viral dong"],
+    "responses" : ["berikut face serum yang cocok buat jenis kulit kakak", "Carolline merekomendasikan face serum ini buat kakak. semoga cocok ya ka :)", "Carolline merasa kulit kakak cocok memakai face serum ini."]
+    },
+    {"tag" : "Face Wash",
+    "patterns" : ["ada gak face wash yang bagus buat aku ka", "ka, sabun cuci muka yang bagus apa yaa", "ka, boleh minta rekomendasi face wash dan cleanser yang bagus dong", "ka, rekomendasi facewash buat kulit sensitif dong", "kak, mau nanya ada face wash yang sedang viral dong"],
+    "responses" : ["berikut face wash yang cocok buat jenis kulit kakak", "Carolline merekomendasikan face wash ini buat kakak. semoga cocok ya ka :)", "Carolline merasa kulit kakak akan bersih jika memakai face wash dan cleanser ini. salam cantik dari Carolline :)"]
+    },
+    {"tag" : "face mask",
+    "patterns" : ["ada gak face mask yang bagus buat aku ka", "ka, mau masker yang viral dong", "ka, boleh minta rekomendasi masker wajah yang bagus ga ka", "ka, rekomendasi masker buat kulit sensitif dong", "kak, butuh masker yang ga membuat kulit jadi panas", "ka, face mask yang cocok untuk ngurangi minyak apa yaa"],
+    "responses" : ["berikut face mask  yang cocok buat jenis kulit kakak", "Carolline yakin kulit kakak makin bagus kalau pakai face mask ini", "oh begitu yaa...Carolline menyarankan kakak pakai face mask ini aja.", "kakak makin cantik deh kalau pakai masker dari Carolline ini. Salam cantik dari Carolline"]
+    },
+    {"tag" : "Parfume",
+    "patterns" : ["ka, saya butuh rekomendasi parfume", "ka, parfume yang bagus apa yaa", "ka, parfume yang ga ada bahan", "ka mau parfume yang mengandung bahan", "aku mau parfume yang mahal"],
+    "responses" : ["Carolline bisa merekomendasikan parfume ini untuk kakak.", "Berdasarkan kepribadian kakak, carolline merekomendasikan parfume ini", "Carolline merasa parfume - parfume ini cocok buat kakak",
+   "Berikut parfume yang kakak cari", "Carolline bisa merekomendasikan parfume ini untuk kakak biar kakak makin tampil kece dan elegan"]
+   },
     {"tag" : "Closing",
-     "patterns" : ["Dadah", "Selamat Tinggal", "Dah", "Daah", "Semoga harimu menyenangkan", "Ok makasih", "Sampai Jumpa Lagi", "Ok bye"],
+     "patterns" : ["Dadah", "Selamat Tinggal", "Dah", "Daah", "Semoga harimu menyenangkan", "Ok makasih", "Sampai Jumpa Lagi", "Ok bye", "Terima kasih buat rekomendasinya", "terima kasih ka"],
      
      "responses" : ["Terima kasih telah menggunakan layanan Carolline", "Terima kasih telah berbelanja di Phora-Phora", "Terima kasih atas pembeliannya, ditunggu ya produknya akan segera kami kirim.",
     "Terima kasih atas kesetiannya, pesanan Anda akan segera kami kirim.", "Terima kasih atas orderannya, jika Anda ingin melacak pengirimannya dapat dilihat di bagian Delivery.",
