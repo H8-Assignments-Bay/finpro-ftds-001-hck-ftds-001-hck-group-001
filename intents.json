@@ -1,0 +1,28 @@
+{"intents": [
+    {"tag": "salam",
+     "patterns": ["Hai", "Hi", "Halo", "Apa Kabar", "Selamat Pagi", "Selamat Siang", "Selamat Malam", "Salam", "Ping", "P"],
+     "responses": ["Halo, caroline boleh tau namamu gak?", "Hai kak, nama kakak siapa yaa....", "Halo, siapa namanya ya kak", "Halo selamat datang di Carolline (Beauty Consultant), boleh perkenalkan diri kamu dulu gak?", "Hai Kawan, siapa namamu??"]
+    },
+    {"tag": "nama",
+     "patterns": ["namaku", "nama saya adalah", "nama:", "my name is", "my name", "nama gue"],
+     "responses": ["halo ka, carolline bisa merekomendasikan kakak produk - produk kecantikkan seperti makeup, shampoo, sabun, parfume, ddan skincare. kira - kira kakak butuh rekomendasi apa ya??", "Halo juga, aku Carroline. ada yang bisa di bantu ka??s"]
+    },
+    {"tag" : "Rekomendasi",
+     "patterns" : ["ka, saya butuh rekomendasi parfume", "ka, makeup yang bagus apa ya", "ka, skincare yang bisa ngilangi jerawat", "kasih rekomendasi produk dong carolline", "aku mau pesta, makeup yang bagus apa yaa"],
+
+     "responses" : ["Carolline merekomendasikan produk ini, semoga cocok ya kak :D", "Sepertinya produk ini yang dicari kakak ya?", "Carolline menyarankan produk ini untuk digunakan.",
+     "Rekomendasi Carolline untuk kebutuhan kakak adalah ini.", "Semoga produk ini sesuai dengan kebutuhan kakak.", "Ini rekomendasi dari Carolline oo>>v<<ooo", 
+     "Carolline berpikir ini akan sesuai dengan apa yang dibutuhkan.", "Produk dari Phora-Phora ini sepertinya yang dicari kakak.", "Setelah Carolline cari-cari sepertinya ini ya yang dibutuhkan.",
+     "Carolline merekomendasikan produk ini untuk digunakan.", "Terima kasih telah menunggu, Carollline menyarankan produk ini untuk digunakan."]
+    },
+    {"tag" : "Closing",
+     "patterns" : ["Dadah", "Selamat Tinggal", "Dah", "Daah", "Semoga harimu menyenangkan", "Ok makasih", "Sampai Jumpa Lagi", "Ok bye"],
+     
+     "responses" : ["Terima kasih telah menggunakan layanan Carolline", "Terima kasih telah berbelanja di Phora-Phora", "Terima kasih atas pembeliannya, ditunggu ya produknya akan segera kami kirim.",
+    "Terima kasih atas kesetiannya, pesanan Anda akan segera kami kirim.", "Terima kasih atas orderannya, jika Anda ingin melacak pengirimannya dapat dilihat di bagian Delivery.",
+    "Terima kasih atas dukungannya, dengan pembelian ini Anda telah melakukan donasi kepada lingkungan.", "Terima kasih telah memilih produk kami :D", "Terima kasih atas dukungannya, jika ada masukan mohon dapat disampaikan ke Customer service.",
+    "Terima kasih atas pilihannya, Carolline akan berusaha memberikan rekomendasi terbaik.", "Terima kasih telah membeli produknya, Carolline senang dapat membantu Anda memilih produk yang tepat.",
+    "Terima kasih telah menggunakan Carolline, semoga pilihannya sesuai dengan yang dicari ya kak >v<"]
+    }
+]
+}
