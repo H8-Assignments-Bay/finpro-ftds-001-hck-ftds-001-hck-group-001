@@ -1,31 +1,31 @@
 {"intents": [
     {"tag": "salam",
      "patterns": ["Hai", "Hi", "Halo", "Apa Kabar", "Selamat Pagi", "Selamat Siang", "Selamat Malam", "Salam", "Ping", "P"],
-     "responses": ["Halo, caroline boleh tau namamu gak?", "Hai kak, nama kakak siapa yaa....", "Halo, siapa namanya ya kak", "Halo selamat datang di Carolline (Beauty Consultant), boleh perkenalkan diri kamu dulu gak?", "Hai Kawan, siapa namamu??"]
+     "responses": ["Halo, Carolline boleh tau namamu gak?", "Hai kak, nama kakak siapa yaa....", "Halo, siapa namanya ya kak", "Halo selamat datang di Carolline (Beauty Consultant), boleh perkenalkan diri kamu dulu gak?", "Hai Kawan, siapa namamu??"]
     },
     {"tag": "nama",
      "patterns": ["nama ku", "nama saya adalah", "nama:", "my name is", "my name", "nama gue", "namaku", "namaku adalah", "nama yaa.. nama saya"],
-     "responses": ["halo ka, carolline bisa merekomendasikan kakak produk - produk kecantikkan seperti makeup, shampoo, sabun, parfume, ddan skincare. kira - kira kakak butuh rekomendasi apa ya??", "Halo juga, aku Carroline. ada yang bisa di bantu ka??"]
+     "responses": ["halo ka, carolline bisa merekomendasikan kakak produk - produk kecantikkan seperti makeup, shampoo, sabun, parfume, ddan skincare. kira - kira kakak butuh rekomendasi apa ya??", "Halo juga, aku Carolline. ada yang bisa di bantu ka??"]
     },
     {"tag" : "Moisturizers",
-     "patterns" : ["kakak kulit aku kering, kira - kira Moisturizersyang cocok apa yaa", "ka, Moisturizers yang bagus apa yaa", "ka, Moisturizers yang ga ada bahan", "ka mau Moisturizers yang mengandung bahan", "kak, mau Moisturizers yang lagi viral dong"],
+     "patterns" : ["kakak kulit aku kering, kira - kira Moisturizers yang cocok apa yaa", "ka, Moisturizers yang bagus apa yaa", "ka, Moisturizers yang ga ada bahan", "ka mau Moisturizers yang mengandung bahan", "kak, mau Moisturizers yang lagi viral dong"],
      "responses" : ["Kalo boleh Carolline tau, kakak pakai produk moisturizer apa sebelumnya??"]
     },
-    {"tag" : "Face Serum",
+    {"tag" : "Face Serums",
     "patterns" : ["ada gak ka face serum yang cocok buat aku", "ka, face serum yang murah dan bagus ada gak?", "ka kulit aku sensitif, ada face serum yang cocok buat kulit sensitif gak?", "ka mau rekomendasi face serum dong", "kak, mau nanya ada face serum yang sedang viral dong"],
     "responses" : ["Kalo boleh Carolline tau, kakak pakai produk face serum apa sebelumnya??"]
     },
-    {"tag" : "Face Wash",
+    {"tag" : "Face Wash & Cleansers",
     "patterns" : ["ada gak face wash yang bagus buat aku ka", "ka, sabun cuci muka yang bagus apa yaa", "ka, boleh minta rekomendasi face wash dan cleanser yang bagus dong", "ka, rekomendasi facewash buat kulit sensitif dong", "kak, mau nanya ada face wash yang sedang viral dong"],
     "responses" : ["Kalo boleh Carolline tau, kakak pakai produk face wash/cleanser apa sebelumnya??"]
     },
-    {"tag" : "face mask",
+    {"tag" : "Face Masks",
     "patterns" : ["ada gak face mask yang bagus buat aku ka", "ka, mau masker yang viral dong", "ka, boleh minta rekomendasi masker wajah yang bagus ga ka", "ka, rekomendasi masker buat kulit sensitif dong", "kak, butuh masker yang ga membuat kulit jadi panas", "ka, face mask yang cocok untuk ngurangi minyak apa yaa"],
     "responses" : ["Kalo boleh Carolline tau, kakak pakai produk face mask apa sebelumnya??"]
     },
-    {"tag" : "Parfume",
+    {"tag" : "Perfume",
     "patterns" : ["ka, saya butuh rekomendasi parfum", "ka, parfum yang bagus apa yaa", "ka, parfum yang ga ada bahan", "ka mau parfum yang mengandung bahan", "aku mau parfum yang mahal"],
-    "responses" : ["Kalo boleh Carolline tau, kakak pakai produk parfume apa sebelumnya??"]
+    "responses" : ["Kalo boleh Carolline tau, kakak pakai produk parfum apa sebelumnya??"]
     },
     {"tag" : "link",
     "patterns" : ["ka, harga produk berapa yaa", "ka kalau mau beli produknya di Carolline harganya berapa yaa", "ka, mau list harga produknya dong", "ka, harganya mahal atau gak yaa", "kak, harganya berapa yaa", "ka mau produknya tapi harganya berapa yaa"],
