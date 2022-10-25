@@ -69,7 +69,7 @@ class Chatbox {
                 textField.value = ''
             });
 
-            
+
         }
 
         updateChatText(chatBox) {
