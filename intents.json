@@ -5,7 +5,7 @@
     },
     {"tag": "nama",
      "patterns": ["nama ku", "nama saya adalah", "nama:", "my name is", "my name", "nama gue", "namaku", "namaku adalah", "nama yaa.. nama saya"],
-     "responses": ["halo ka, carolline bisa merekomendasikan kakak produk - produk kecantikkan seperti makeup, shampoo, sabun, parfume, ddan skincare. kira - kira kakak butuh rekomendasi apa ya??", "Halo juga, aku Carolline. ada yang bisa di bantu ka??"]
+     "responses": ["halo ka, Carolline bisa merekomendasikan kakak produk - produk kecantikkan seperti makeup, shampoo, sabun, parfume, ddan skincare. kira - kira kakak butuh rekomendasi apa ya??", "Halo juga, aku Carolline. ada yang bisa di bantu ka??"]
     },
     {"tag" : "Moisturizers",
      "patterns" : ["kakak kulit aku kering, kira - kira Moisturizers yang cocok apa yaa", "ka, Moisturizers yang bagus apa yaa", "ka, Moisturizers yang ga ada bahan", "ka mau Moisturizers yang mengandung bahan", "kak, mau Moisturizers yang lagi viral dong"],
