@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 import pandas as pd
 
 
 data = 
 
+=======
+>>>>>>> 1dd72b25e10efc558abf93ed61a0d018da7daee1
 def get_recommendations_new(input):
     new_rec = data.loc[(data['category'] == input) & (data['rating'] == 4.5) & (data['love'] >= 80000)]
     rec = new_rec['name'].to_numpy()
@@ -14,4 +17,9 @@ def get_recommendations(name):
     sim_scores = sorted(sim_scores, key=lambda x: x[1], reverse=True)
     sim_scores = sim_scores[1:31]
     name_indices = [i[0] for i in sim_scores]
+<<<<<<< HEAD
     return names.iloc[name_indices][0:5]
+=======
+    return names.iloc[name_indices][0:5]
+
+>>>>>>> 1dd72b25e10efc558abf93ed61a0d018da7daee1
