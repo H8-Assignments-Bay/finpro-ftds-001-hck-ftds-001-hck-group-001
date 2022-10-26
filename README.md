@@ -3,15 +3,14 @@
 ![Logo](assets/logo.png)    
 # CAROLLINE
 **Your lovely beauty consultant**   
-    
+  
 Carolline is the Chatbot and Recommendation System for the Beauty Products!  
 
 ## Background
 We want to resolve the Paradox of Choice which is a condition where too many choices are available for the customer and can cause them stress and complicate the decision-making process. We exist to help customers in deciding on what beauty products they want to purchase.
 
 ## Datasets  
-The Dataset is from [Sephora Website](https://www.kaggle.com/datasets/raghadalharbi/all-products-available-on-sephora-website).  
-
+This dataset is the result of scrapping the Sephora Website, which contains more than 9000 products with their ratings and ingredient list. Dataset link: [Sephora Website](https://www.kaggle.com/datasets/raghadalharbi/all-products-available-on-sephora-website).  
 
 ## Team 
 - [Asta Zeska Dimitri](https://www.linkedin.com/in/astadimitri/)
