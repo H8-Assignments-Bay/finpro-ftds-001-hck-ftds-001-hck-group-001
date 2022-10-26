@@ -8,7 +8,7 @@
      "responses": ["Halo kak, Carolline bisa merekomendasikan produk - produk kecantikan seperti make-up, skincare dan produk kecantikan lainnya. Ada yang bisa Carolline bantu rekomendasikan produk kecantikan kakak?", "Halo kak! Aku Carolline siap membantu Kakak dalam merekomendasikan produk kecantikan untuk Kakak! Ada yang bisa Carolline bantu rekomendasikan?"]
     },
     {"tag" : "Moisturizers",
-     "patterns" : ["kakak kulit aku kering, kira - kira Moisturizers yang cocok apa yaa", "kak, Moisturizers yang bagus apa yaa", "kak, Moisturizers yang ga ada bahan", "kak mau Moisturizers yang mengandung bahan", "kak, mau Moisturizers yang lagi viral dong"],
+     "patterns" : ["kakak kulit aku kering, kira - kira Moisturizer yang cocok apa yaa", "kak, Moisturizer yang bagus apa yaa", "kak, Moisturizer yang ga ada bahan", "kak mau pelembab yang mengandung bahan", "kak, mau pelembab yang lagi viral dong"],
      "responses" : ["Kalau boleh Carolline tau, sebelumnya kakak pakai produk Moisturizer apa ya?"]
     },
     {"tag" : "Face Serums",
@@ -38,11 +38,8 @@
     {"tag" : "Closing",
      "patterns" : ["Dadah", "Selamat Tinggal", "Dah", "Daah", "Semoga harimu menyenangkan", "Ok makasih", "Sampai Jumpa Lagi", "Ok bye", "Terima kasih buat rekomendasinya", "terima kasih ka"],
      
-     "responses" : ["Terima kasih telah menggunakan layanan Carolline", "Terima kasih telah berbelanja di Carolline", "Terima kasih atas pembeliannya, ditunggu ya produknya akan segera kami kirim.",
-    "Terima kasih atas kesetiannya, pesanan Anda akan segera kami kirim.", "Terima kasih atas orderannya, jika Anda ingin melacak pengirimannya dapat dilihat di bagian Delivery.",
-    "Terima kasih atas dukungannya, dengan pembelian ini Anda telah melakukan donasi kepada lingkungan.", "Terima kasih telah memilih produk kami :D", "Terima kasih atas dukungannya, jika ada masukan mohon dapat disampaikan ke Customer service.",
-    "Terima kasih atas pilihannya, Carolline akan berusaha memberikan rekomendasi terbaik.", "Terima kasih telah membeli produknya, Carolline senang dapat membantu Anda memilih produk yang tepat.",
-    "Terima kasih telah menggunakan Carolline, semoga pilihannya sesuai dengan yang dicari ya kak"]
+     "responses" : ["Terima kasih telah menggunakan layanan Carolline", "Terima kasih telah bertanya mengenai produk kami :D", "Terima kasih telah menggunakan Carolline, jika ada masukan mohon dapat disampaikan ke Customer service.",
+    "Terima kasih, Carolline akan selalu berusaha memberikan rekomendasi terbaik untuk kakak.", "Terima kasih, Carolline senang dapat membantu Anda memilih produk yang tepat.", "Terima kasih telah menggunakan Carolline, semoga pilihannya sesuai dengan yang dicari ya kak"]
     }
 ]
 }
