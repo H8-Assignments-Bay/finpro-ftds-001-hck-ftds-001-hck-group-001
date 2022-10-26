@@ -8,7 +8,9 @@
      "responses": ["Halo kak, Carolline bisa merekomendasikan produk - produk kecantikan seperti make-up, skincare dan produk kecantikan lainnya. Ada yang bisa Carolline bantu rekomendasikan produk kecantikan kakak?", "Halo kak! Aku Carolline siap membantu Kakak dalam merekomendasikan produk kecantikan untuk Kakak! Ada yang bisa Carolline bantu rekomendasikan?"]
     },
     {"tag" : "Moisturizers",
-     "patterns" : ["kakak kulit aku kering, kira - kira Moisturizer yang cocok apa yaa", "kak, Moisturizer yang bagus apa yaa", "kak, Moisturizer yang ga ada bahan", "kak mau pelembab yang mengandung bahan", "kak, mau pelembab yang lagi viral dong"],
+     "patterns" : ["kulit aku kering, kira - kira Moisturizer yang cocok apa yaa", "kak, Moisturizer atau pelembab yang bagus apa yaa",
+      "kak, aku butuh rekomendasi pelembab atau moisturizer", "moisturizer yang bagus apa ya?", 
+      "kak, mau pelembab yang lagi viral dong", "ada rekomendasi moisturizer atau pelembab?", "pelembab yang bagus apa ya?"],
      "responses" : ["Kalau boleh Carolline tau, sebelumnya kakak pakai produk Moisturizer apa ya?"]
     },
     {"tag" : "Face Serums",
