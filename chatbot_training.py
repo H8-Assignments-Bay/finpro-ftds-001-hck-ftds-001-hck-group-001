@@ -46,7 +46,7 @@ def bot_response(chat):
     max_prob = max(res[0])
     if max_prob < 0.2 and len(data[data['name'].str.lower() == chat]) > 0 :
         rekomendasi = get_recommendations(chat.title())
-        return 'Carolline merekomendasikan kakak pakai produk ini ', ', '.join(rekomendasi.values), None
+        return 'Carolline merekomendasikan kakak pakai produk ini ', '\n, '.join(rekomendasi.values), None
     elif max_prob < 0.2 and len(data[data['name'].str.lower() == chat]) == 0 :
         return "maaf kak, carolline tidak mengerti", None 
     else:
