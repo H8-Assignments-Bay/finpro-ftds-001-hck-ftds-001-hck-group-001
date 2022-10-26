@@ -8,7 +8,7 @@ body {
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
     font-size: 100%;
-    background-image: url("https://i.ibb.co/HtWRnJp/women-s-cosmetic-products-lying-blue-1.jpg");
+    background-image: url("https://media.discordapp.net/attachments/1027118818587312138/1034731367252111400/Bronze_White_Photo_and_Videocentric_Sign_up_Page_Website_Sign-Up_Page_1.jpg");
     background-color: #8398C3;
 }
 
@@ -97,8 +97,8 @@ body {
 
 .chatbox__support {
     background: #FFFFFF;
-    height: 450px;
-    width: 350px;
+    height: 550px;
+    width: 450px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -111,8 +111,8 @@ body {
     background: var(--primaryGradient);
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
     padding: 15px 20px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -147,15 +147,15 @@ body {
 
 .messages__item--visitor,
 .messages__item--typing {
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
 }
 
 .messages__item--operator {
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
     background: var(--primary);
     color: white;
 }
